@@ -1,0 +1,28 @@
+{
+  "name": "chitkara-qualifier-bfhl",
+  "version": "1.0.0",
+  "description": "REST API submission for Qualifier 1 (10 Feb)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "keywords": [
+    "chitkara",
+    "bfhl",
+    "qualifier",
+    "nodejs"
+  ],
+  "author": "Athrv Sharma",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0"
+  }
+}
