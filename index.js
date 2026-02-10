@@ -283,7 +283,10 @@ async function handleAi(input) {
         ],
         generationConfig: {
           temperature: 0,
-          maxOutputTokens: 5,
+          maxOutputTokens: 20,
+          thinkingConfig: {
+            thinkingBudget: 0,
+          },
         },
       }),
     }
